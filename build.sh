@@ -1,0 +1,1 @@
+g++ main.cpp -std=gnu++14 `pkg-config --libs wx` -o Calculator -mwindows
