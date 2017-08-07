@@ -115,6 +115,7 @@ class CalcWindow : public wxFrame{
 					case 0+wxID_HIGHEST:
 						if(num2active){ tBuf_2 << 1; }
 						else{ tBuf_1 << 1; }
+						break;
 					case 1+wxID_HIGHEST:
 						if(num2active){ tBuf_2 << 2; }
 						else{ tBuf_1 << 2; }
